@@ -194,6 +194,13 @@
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+/* footer styles  */
+.footer{
+    padding: 39px 410px;
+    margin: 130px 240px 216px 240px;
+    text-align: center;
+
+}
 /* responsive media quary */
 @media screen and (max-width: 576px) {
     .navbar,.nav-links, .teams, .features{
@@ -226,6 +233,10 @@
         margin-top: 20px;
         margin-left: 70px;
         justify-items: center;
+    }
+    .footer{
+        padding: 0px;
+        margin: 50px auto;
     }
 }
 
